@@ -47,7 +47,7 @@ const(
 
 func main()  {
 	j, _ := cookiejar.New(nil)
-	weibo :=&Loginweibo{username:"17744558076",pwd:"cet110201",client:&http.Client{Jar:j}}
+	weibo :=&Loginweibo{username:"xxx",pwd:"xxxxx",client:&http.Client{Jar:j}}
 	err :=weibo.preLogin()
 	if err !=nil{
 		fmt.Println(err)
